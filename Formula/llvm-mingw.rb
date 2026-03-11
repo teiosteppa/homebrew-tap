@@ -4,9 +4,9 @@
 class LlvmMingw < Formula
   desc "An LLVM/Clang/LLD based mingw-w64 toolchain"
   homepage "https://github.com/mstorsjo/llvm-mingw"
-  url "https://github.com/mstorsjo/llvm-mingw/releases/download/20251216/llvm-mingw-20251216-ucrt-macos-universal.tar.xz"
-  sha256 "38bb5e48ec3e0ce95fb901f4efff0bd6ffa966d1b32539a6510af816a959d160"
-  license "NOASSERTION"
+  url "https://github.com/mstorsjo/llvm-mingw/releases/download/20260311/llvm-mingw-20260311-ucrt-macos-universal.tar.xz"
+  sha256 "42715d845b8f92941b1226d5d648c7de82dd79d67613209fea8397cf78d955a0"
+  license "ISC"
   
   keg_only :provided_by_macos
 
@@ -17,7 +17,7 @@ class LlvmMingw < Formula
   test do
     resource "run-tests.sh" do
       url "https://github.com/mstorsjo/llvm-mingw/raw/refs/tags/20251216/run-tests.sh"
-      sha256 "bab8cb09f00225fa77b679b21d35d05f17a4bdaf7f6aec9d18a0a752ed57914d"
+      sha256 "77a71ea6f2d60f0f9be780863d52791bcf60c5c3e163b7d390bfc41e4b265d69"
     end
 
     resource("run-tests.sh").stage do
