@@ -2,8 +2,8 @@
 #                https://docs.brew.sh/Adding-Software-to-Homebrew#cask-stanzas
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 cask "snagit@2024" do
-  version "2024.4.8"
-  sha256 "731df99a46b41982cdcb7a6d28802a28e278c2d4cc47ce1907103a698b1b0414"
+  version "2024.4.9"
+  sha256 "a03942220b1199ec9ca508515ad1364fc028d220f4dbd3599ceb30cabd2f1a5f"
 
   url "https://download.techsmith.com/snagitmac/releases/#{version.major[-2..]}#{version.minor_patch.no_dots}/snagit.dmg"
   name "Snagit"
