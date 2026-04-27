@@ -2,8 +2,8 @@
 #                https://docs.brew.sh/Adding-Software-to-Homebrew#cask-stanzas
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 cask "equibop" do
-  version "3.1.6"
-  sha256 "bd6c7fc283844164caadbba3802c392433da4d930fa4ad1811a8998fb541b1d3"
+  version "3.2.0"
+  sha256 "36a2e6a0ee26864f613eb10b21cde52f08312cd8f6c2faf463518b9385527f78"
 
   url "https://github.com/Equicord/Equibop/releases/download/v#{version}/Equibop-#{version}-universal.dmg"
   name "equibop"
@@ -12,7 +12,7 @@ cask "equibop" do
 
   # Documentation: https://docs.brew.sh/Brew-Livecheck
   livecheck do
-    url "https://github.com/Equicord/Equibop/releases/download/v3.1.6/latest-mac.yml"
+    url "https://github.com/Equicord/Equibop/releases/download/v#{version}/latest-mac.yml"
     strategy :electron_builder
   end
 
