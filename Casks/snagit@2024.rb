@@ -21,7 +21,7 @@ cask "snagit@2024" do
     end
   end
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Snagit 2024.app"
 
